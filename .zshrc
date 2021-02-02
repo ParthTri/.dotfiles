@@ -4,12 +4,11 @@ fi
 
 # Path to your oh-my-zsh installation.
 export ZSH=$HOME/.oh-my-zsh
-export PATH=/usr/local/mysql/bin:$PATH 
 
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
-export PATH="$PATH:/Users/parth/Developer/flutter/bin"
+export PATH="$PATH:/Users/psarth/Developer/flutter/bin"
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
