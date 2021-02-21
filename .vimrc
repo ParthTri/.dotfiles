@@ -11,7 +11,6 @@ set softtabstop=2
 call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
-Plug 'scrooloose/nerdtree'
 Plug 'joshdick/onedark.vim'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'nvie/vim-flake8'
@@ -35,7 +34,13 @@ au BufNewFile, BufRead *.py
   \| set expandtab
   \| set autoindent
 
-nmap <F6> :NERDTreeToggle<CR>
+" File manager
+nmap <F6> :Lexplore<CR>
+let g:netrw_liststyle = 3
+let g:netrw_banner = 0
+let g:netrw_browse_split = 2
+let g:netrw_winsize = 25
+
 
 highlight Normal ctermbg=none
 highlight NonText ctermbg=none
