@@ -1,6 +1,5 @@
 tap "baskerville/formulae"
 tap "caskroom/cask"
-tap "crisidev/chunkwm"
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
@@ -17,13 +16,10 @@ brew "neovim"
 brew "pkg-config"
 
 # Interpreted, interactive, object-oriented programming language
-brew "python@3.8"
+brew "python"
 # UNIX shell (command interpreter)
 brew "zsh"
 brew "baskerville/formulae/bspwm", args: ["HEAD"]
 brew "baskerville/formulae/sxhkd", args: ["HEAD"]
-# Automatic tiling window manager similar to xmonad
-cask "amethyst"
-cask "android-sdk"
 # Terminal emulator as alternative to Apple's Terminal app
 cask "iterm2"
