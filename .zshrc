@@ -15,3 +15,4 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
 # neofetch
+export TERM=xterm-256color
