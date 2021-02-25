@@ -16,3 +16,6 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 
 # neofetch
 export TERM=xterm-256color
+
+
+if [ "$TMUX" = "" ]; then tmux; fi
