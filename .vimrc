@@ -18,8 +18,9 @@ Plug 'nvie/vim-flake8'
 call plug#end()
 
 colorscheme onedark
-let g:rehash256 = 1
 
+let g:rehash256 = 1
+let g:airline_theme = "onedark" 
 
 set splitbelow
 set splitright
@@ -38,7 +39,7 @@ au BufNewFile, BufRead *.py
 nmap <F6> :Lexplore<CR>
 let g:netrw_liststyle = 3
 let g:netrw_banner = 0
-let g:netrw_browse_split = 2
+let g:netrw_browse_split = 0
 let g:netrw_winsize = 25
 
 
